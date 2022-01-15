@@ -8,7 +8,7 @@ use elrond_wasm_debug::{
     DebugApi,
 };
 
-const WASM_PATH: &'static str = "crowdfunding-esdt/output/crowdfunding-esdt.wasm";
+const WASM_PATH: &'static str = "output/crowdfunding-esdt.wasm";
 
 struct CrowdfundingSetup<CrowdfundingObjBuilder>
 where
