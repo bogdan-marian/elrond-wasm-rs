@@ -69,10 +69,10 @@ where
 }
 
 #[test]
-fn init_test_01() {
+fn init_01_test() {
     let cf_setup = setup_crowdfunding(crowdfunding_esdt::contract_obj);
     cf_setup
         .blockchain_wrapper
-        .write_mandos_output("_generated_init.scen.json");
+        .write_mandos_output("_generated_init_01.scen.json");
 }
 
