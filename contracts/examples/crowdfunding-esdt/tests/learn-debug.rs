@@ -69,7 +69,7 @@ where
 }
 
 #[test]
-fn init_test() {
+fn init_test_01() {
     let cf_setup = setup_crowdfunding(crowdfunding_esdt::contract_obj);
     cf_setup
         .blockchain_wrapper
