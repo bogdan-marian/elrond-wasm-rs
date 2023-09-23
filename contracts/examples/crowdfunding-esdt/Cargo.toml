@@ -12,6 +12,10 @@ path = "src/crowdfunding_esdt.rs"
 version = "0.43.4"
 path = "../../../framework/base"
 
+[dependencies.multiversx-sc-meta]
+version = "0.43.4"
+path = "../../../../framework/meta"
+
 [dev-dependencies.multiversx-sc-scenario]
 version = "0.43.4"
 path = "../../../framework/scenario"
